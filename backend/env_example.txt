@@ -1,0 +1,19 @@
+# LLM Provider Configuration
+LLM_PROVIDER=gpt4o  # Options: gpt4o, groq, cerebras
+
+# OpenAI Configuration (for gpt4o)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Groq Configuration (for groq)
+GROQ_API_KEY=your_groq_api_key_here
+
+# Cerebras Configuration (for cerebras)
+CEREBRAS_API_KEY=your_cerebras_api_key_here
+
+# AWS Configuration (if using AWS services)
+AWS_REGION=us-east-1
+COGNITO_USER_POOL_ID=your_user_pool_id
+COGNITO_CLIENT_ID=your_client_id
+
+# Database Configuration (not needed for standalone version)
+DATABASE_URL=postgresql://user:password@localhost/dbname 
